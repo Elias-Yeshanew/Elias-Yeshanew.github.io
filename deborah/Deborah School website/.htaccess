@@ -1,0 +1,4 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^greenlandacademy\.etmilestone\.com$
+RewriteRule ^/?$ "https\:\/\/etmilestone\.com\/GreenLandAcademy" [R=301,L]
