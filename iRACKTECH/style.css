@@ -982,6 +982,9 @@ a img.aligncenter {
     color: #ffffff;
 }
 
+.timeline__content h2{
+    text-align: center;
+}
 
 .box-slider .first-section{
 	display: table;
@@ -995,7 +998,7 @@ a img.aligncenter {
 
 
 .page-section{
-	padding: 70px 0px; 
+	padding: 70px 0;
 }
 
 .customwidget a{
@@ -1423,7 +1426,7 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .pricing-table {
-    margin: 0px;
+    margin: 0;
     background: #fff;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
 	border-radius: 2px;
@@ -1599,7 +1602,7 @@ a img.aligncenter {
     text-align: center;
     background-color: #f4f4f4;
 	display: block;
-	padding: 10px 0px;
+	padding: 10px 0;
 	border-radius: 2px;
 }
 
@@ -1703,7 +1706,7 @@ a img.aligncenter {
 }
 
 .message-box{
-	padding: 20px 0px;
+	padding: 20px 0;
 }
 
 .service-widget h3 {
@@ -1985,7 +1988,7 @@ hr.invis1 {
 
 .features-right li:last-child,
 .features-left li:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-bottom: 0 !important;
 }
 
@@ -2527,7 +2530,7 @@ select.mobile-device {
     margin-bottom: 5px;
     display: block;
     width: 100%;
-	padding: 5px 0px;
+	padding: 5px 0;
     border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
 }
 
@@ -2560,7 +2563,7 @@ select.mobile-device {
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    padding: 10px 0px;
+    padding: 10px 0;
     overflow: hidden;
 }
 
@@ -2588,7 +2591,7 @@ select.mobile-device {
     font-weight: 300;
     margin: 0 10px;
     color: #666;
-    padding: 5px 0px;
+    padding: 5px 0;
 }
 
 
@@ -2662,8 +2665,8 @@ select.mobile-device {
 	color: #1C355E;
 }
 .footer-links-soi{
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 .footer-links-soi li{
 	display: inline-block;
@@ -2860,7 +2863,7 @@ body.host_version .first-section .effect-1.slide-btn::after{
 	text-transform: capitalize;
 	padding-top: 11%;
 	font-size: 48px;
-	line-height: 0px;
+	line-height: 0;
 }
 
 span.m_1 {
@@ -2876,13 +2879,13 @@ span.m_1 {
 
 .list-domain ul{
 	list-style: none;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 .list-domain ul li{
 	display: inline-block;
-	padding: 10px 0px;
+	padding: 10px 0;
 }
 
 .dmoain-pricing table {
@@ -3004,10 +3007,10 @@ span.m_1 {
     margin: 0 auto;
 }
 .pricingTable .pricingContent ul li:first-child{
-    border-top: 0px none;
+    border-top: 0 none;
 }
 .pricingTable .pricingContent ul li:last-child{
-    border-bottom: 0px none;
+    border-bottom: 0 none;
 }
 .pricingTable .pricingContent ul li:before{
     content: "\f00c";
@@ -3034,7 +3037,7 @@ span.m_1 {
     background: #e67e22;
     color:#fff;
     text-transform: capitalize;
-    border: 0px none;
+    border: 0 none;
     padding: 10px;
     border-radius: 3px;
     font-size: 17px;
@@ -3146,12 +3149,12 @@ span.m_1 {
 	border: none;
 	background: #1C355E;
 	color: #fff;
-	border-radius: 0px;
+	border-radius: 0;
 }
 
 .customer-box .nav-tabs > li > a{
-	border-radius: 0px;
-	border: 0px;
+	border-radius: 0;
+	border: 0;
 	background: #2d3032;
 	color: #ffffff;
 	padding: 10px 25px;
@@ -3162,7 +3165,7 @@ span.m_1 {
 .customer-box .nav-tabs > li > a:hover{
 	background: #1C355E;
 	color: #ffffff;
-	border: 0px;
+	border: 0;
 }
 
 .customer-box .tab-content{
@@ -3193,8 +3196,8 @@ span.m_1 {
 .tit-up .close{
 	position: absolute;
 	z-index: 2;
-	right: 0px;
-	top: 0px;
+	right: 0;
+	top: 0;
 	margin: 0;
 }
 
@@ -3214,11 +3217,11 @@ span.m_1 {
 	color: #fff;
 	margin: 0 auto;
 	cursor: pointer;
-	border-radius: 4px 4px 0px 0px;
+	border-radius: 4px 4px 0 0;
 }
 
 .pd{
-	padding: 0px 15px;
+	padding: 0 15px;
 }
 
 
@@ -3330,7 +3333,7 @@ span.m_1 {
 .our-team:hover .social{
     height: 100%;
     opacity: 1;
-	border-radius: 0px;
+	border-radius: 0;
     transform: translateY(-50%) rotate(0deg);
 }
 .our-team .social ul{
@@ -3373,7 +3376,7 @@ span.m_1 {
     letter-spacing: 1px;
     text-transform: uppercase;
     margin: 0 0 7px 0;
-	padding: 0px;
+	padding: 0;
 }
 .our-team .post{
     display: block;
@@ -3439,7 +3442,7 @@ span.m_1 {
 }
 .blog-title > h2{
 	margin: 15px 0;
-	padding: 0px;
+	padding: 0;
 }
 .blog-title a {
     font-size: 18px;
@@ -3504,7 +3507,7 @@ span.m_1 {
 	color: #FFFFFF;
 	font-size: 22px;
 	font-weight: 600;
-	padding: 0px 10px;
+	padding: 0 10px;
 }
 .post-content .post-date .month{
 	background: #212121;
@@ -3607,12 +3610,12 @@ blockquote.default {
 .blog-comments h4{
 	font-size: 22px;
 	margin-bottom: 30px;
-	padding: 0px;
+	padding: 0;
 	font-weight: 500;
 }
 .comment-list{
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 .avatar {
@@ -3642,7 +3645,7 @@ h5.comment-author {
     font-size: 16px;
     line-height: 20px;
     margin: 0;
-	padding: 0px;
+	padding: 0;
 }
 .comment-list .comment-meta {
     margin-bottom: 10px;
@@ -3674,14 +3677,14 @@ a.link-style3 {
 .comments-form h4{
 	font-size: 22px;
 	margin-bottom: 30px;
-	padding: 0px;
+	padding: 0;
 	font-weight: 500;
 }
 .comment-form-main .form-group .form-control{
 	font-size: 14px;
 	color: #636363;
 	line-height: 46px;
-	padding: 0px 15px;
+	padding: 0 15px;
 	border: none;
 	border-bottom: 1px solid #efefef;
 }
@@ -3769,14 +3772,14 @@ a.link-style3 {
 .widget-categories .widget-title{
 	font-size: 18px;
 	font-weight: 400;
-	padding: 0px;
+	padding: 0;
 	margin-bottom: 15px;
 	border-right: 3px solid #1C355E;
 }
 .widget-categories ul{
 	list-style: none;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 .widget-categories ul li{
 	border-bottom: 1px solid #f2f2f2;
@@ -3794,19 +3797,19 @@ a.link-style3 {
 .widget-tags .widget-title{
 	font-size: 18px;
 	font-weight: 400;
-	padding: 0px;
+	padding: 0;
 	margin-bottom: 15px;
 	border-right: 3px solid #1C355E;
 }
 .widget-tags .tags{
 	list-style: none;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 .tags li {
     float: left;
-    padding: 0px;
-    margin: 0px 5px 5px 0px;
+    padding: 0;
+    margin: 0 5px 5px 0;
     list-style-type: none;
     line-height: 25px;
 }
@@ -3836,7 +3839,7 @@ a.link-style3 {
 .course-item{}
 .course-title > h2 {
     margin: 15px 0;
-    padding: 0px;
+    padding: 0;
 }
 .course-title a {
     font-size: 18px;
@@ -3854,19 +3857,19 @@ a.link-style3 {
 }
 .course-meta-bot{
 	border: 1px solid #4babb1;
-	border-top: 0px;
+	border-top: 0;
 	padding: 15px;
 }
 .course-meta-bot ul{
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 	display: block;
 	text-align: center;
 }
 .course-meta-bot ul li{
 	display: inline-block;
 	list-style: none;
-	padding: 0px 5px;
+	padding: 0 5px;
 	color: #212121;
 	font-size: 11px;
 }
