@@ -81,7 +81,6 @@ h6 {
     font-weight: normal;
     position: relative;
     padding: 0 0 10px 0;
-    font-weight: normal;
     line-height: 120% !important;
     color: #1f1f1f;
     margin: 0
@@ -147,6 +146,7 @@ a,
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 
 .btn-custom {
     margin-top: 20px;
@@ -277,7 +277,6 @@ a img.aligncenter {
     clip: auto !important;
     color: #21759b;
     display: block;
-    font-size: 14px;
     font-size: 0.875rem;
     font-weight: bold;
     height: auto;
@@ -353,7 +352,7 @@ a img.aligncenter {
   top: 0;
   left: 50%;
   margin-top: -3px;
-  margin-left: 0px;
+  margin-left: 0;
   width: 50px;
   height: 50px;
   border-top: solid 10px #fff;
@@ -364,7 +363,7 @@ a img.aligncenter {
 }
 .progress-br.float .progress__item:before {
   border-top-width: 50px;
-  margin-top: 0px;
+  margin-top: 0;
   height: 50px;
 }
 
@@ -478,15 +477,15 @@ a img.aligncenter {
 .top-navbar .navbar-light .navbar-nav .nav-item{
 	position: relative;
 	display: inline-block;
-	padding: 15px 0px;
-	margin: 0px 20px;
+	padding: 15px 0;
+	margin: 0 20px;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link{
-	padding: 6px 0px;
+	padding: 6px 0;
 	position: relative;
 	display: block;
 	line-height: 30px;
-	letter-spacing: 0px;
+	letter-spacing: 0;
 	text-transform: uppercase;
 }
 
@@ -514,7 +513,7 @@ a img.aligncenter {
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link::before {
     position: absolute;
     content: '';
-    left: 0%;
+    left: 0;
     bottom: auto;
     top: -4px;
     width: 5px;
@@ -535,7 +534,7 @@ a img.aligncenter {
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link::after {
     position: absolute;
     content: '';
-    right: 0%;
+    right: 0;
     left: auto;
     bottom: auto;
     top: -4px;
@@ -609,16 +608,16 @@ a img.aligncenter {
 }
 
 .top-navbar .bg-light {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
     box-shadow: 0 0 18px 0 rgba(0,0,0,.12);
 }
 
 .top-navbar .navbar-light .navbar-nav li .dropdown-menu {
     box-shadow: 0 2px 12px 0 rgba(0,0,0,.12);
     border: none;
-    border-radius: 0px;
-    margin: 0px;
+    border-radius: 0;
+    margin: 0;
 	padding: 10px;
 }
 
@@ -679,7 +678,7 @@ a img.aligncenter {
 
 .navbar-toggler{
 	background: #ffffff;
-	border-radius: 0px;
+	border-radius: 0;
 	padding: 10px 10px;
 }
 
@@ -712,7 +711,7 @@ a img.aligncenter {
 	border-radius: 2px;
 	background: #1C355E;
 	position: absolute;
-	left: 0px;
+	left: 0;
 	font-size: 38px;
 	top: 40%;
 	width: 60px;
@@ -724,7 +723,7 @@ a img.aligncenter {
 	border-radius: 2px;
 	background: #1C355E;
 	position: absolute;
-	right: 0px;
+	right: 0;
 	font-size: 38px;
 	top: 40%;
 	width: 60px;
@@ -916,8 +915,8 @@ a img.aligncenter {
     position: absolute;
     height: 100%;
     width: 100%;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
     display: block;
     background: rgba(0,0,0,0.5);
 }
@@ -934,7 +933,8 @@ a img.aligncenter {
 }
 
 .first-section h2 strong{
-	color: #1C355E;
+    background-color: #1C355E;
+	color: #fff;
 }
 
 .first-section .lead {
@@ -1103,11 +1103,11 @@ a img.aligncenter {
 }
 
 .hmv-box{
-	padding: 60px 0px; 
+	padding: 60px ;
 }
 .inner-hmv{
 	padding: 15px;
-	box-shadow: 0 0px 10px rgba(0,0,0,.1);
+	box-shadow: 0  10px rgba(0,0,0,.1);
 	position: relative;
 	overflow: hidden;
 }
@@ -1133,14 +1133,14 @@ a img.aligncenter {
 	color: #212121;
     font-weight: 500;
 	margin-bottom: 20px;
-	padding: 0px;
+	padding: 0;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
 .inner-hmv p{
-	margin: 0px;
+	margin: 0;
 }
 
 .inner-hmv:hover .icon-box-hmv{
@@ -1354,8 +1354,8 @@ a img.aligncenter {
 	background: rgba(0,0,0,0.8);
 	content: "";
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 }
@@ -1890,7 +1890,7 @@ hr.invis1 {
     width: 100%;
     height: 100%;
     position: relative;
-    background: url("uploads/code.jpg") no-repeat;
+
 }
 
 .design-wrapper {
@@ -1911,7 +1911,7 @@ hr.invis1 {
     position: relative;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    background: url("uploads/design.jpg") no-repeat;
+
 }
 
 
@@ -2478,7 +2478,7 @@ select.mobile-device {
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: !important;
+    line-height: 1 !important;
 }
 
 .footer {
@@ -2767,7 +2767,7 @@ select.mobile-device {
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 #preloader {
@@ -2846,13 +2846,12 @@ body.host_version .first-section .effect-1.slide-btn::after{
 /**-------------- inner Page css ---------------**/
 
 .all-title-box{
-	background: url(images/banner.jpg)no-repeat;
-	-webkit-background-size: cover;
+    -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-position: center;
-	min-height: 300px;
+    background: url(images/banner.jpg) no-repeat center;
+    min-height: 300px;
 }
 
 .all-title-box h1{
@@ -3132,6 +3131,10 @@ span.m_1 {
 
 .customer-box{
 	
+}
+.irack-logo{
+    width: 100px;
+    height: auto;
 }
 .customer-box .nav-tabs{
 	border-bottom: none;
