@@ -3135,7 +3135,10 @@ span.m_1 {
 .customer-box{
 	
 }
-
+.irack-logo{
+    width: 100px;
+    height: auto;
+}
 .customer-box .nav-tabs{
 	border-bottom: none;
 	padding: 20px;
@@ -3665,10 +3668,9 @@ a.link-style3 {
     top: 20px;
 }
 
-@media only screen and (max-width: 900px) {
-
-    .irack-logo{
-        width: 20px;
+@media only screen and (max-width: 100px) {
+    .navbar-brand a img{
+        width: 100px;
         height: auto;
     }
 }
