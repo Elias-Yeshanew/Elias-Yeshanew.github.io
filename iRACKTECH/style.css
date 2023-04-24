@@ -2845,15 +2845,19 @@ body.host_version .first-section .effect-1.slide-btn::after{
 }
 
 
-
 /**-------------- inner Page css ---------------**/
 
+.about{
+    background: url(images/Irack/aboutus.jpg) no-repeat center;
+}
+
 .all-title-box{
+
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-    background: url(images/banner.jpg) no-repeat center;
+
     min-height: 300px;
 }
 
@@ -3668,7 +3672,7 @@ a.link-style3 {
 @media only screen and (max-width: 900px) {
 
     .irack-logo{
-        width: 20px;
+        width: 200px;
         height: auto;
     }
 }
