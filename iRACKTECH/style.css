@@ -844,7 +844,7 @@ a img.aligncenter {
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 0 0;
+    padding: 0 0 20px 0;
 }
 
 .noover {
@@ -3416,6 +3416,7 @@ span.m_1 {
 .blog-item {
     background: #f1f1f1;
     padding: 20px;
+
 }
 .image-blog img{
 	padding: 0 !important;
@@ -3430,6 +3431,8 @@ span.m_1 {
 	-o-transition: all 150ms ease-in-out;
 	-ms-transition: all 150ms ease-in-out;
 	transition: all 150ms ease-in-out;
+    height: 800px;
+    width: 800px;
 }
 .image-blog img:hover{
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
