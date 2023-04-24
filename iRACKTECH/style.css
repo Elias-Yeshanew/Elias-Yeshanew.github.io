@@ -26,6 +26,7 @@ body {
     font-size: 14px;
     font-family: 'Rubik', sans-serif;
     line-height: 1.80857;
+    margin: 0 0 0 0;
 }
 
 body.demos .section {
@@ -843,7 +844,7 @@ a img.aligncenter {
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 70px 0;
+    padding: 0 0;
 }
 
 .noover {
@@ -2851,12 +2852,21 @@ body.host_version .first-section .effect-1.slide-btn::after{
     background: url(images/Irack/aboutus.jpg) no-repeat center;
 }
 
+.gallery{
+    background: url(images/Irack/aboutus.jpg) no-repeat center;
+}
+
+.solutions{
+    background: url(images/Irack/solution.jpg) no-repeat center;
+}
+
 .all-title-box{
 
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+    margin-bottom: 0;
 
     min-height: 300px;
 }
@@ -3561,6 +3571,17 @@ blockquote.default {
 	font-size: 16px;
 }
 
+.google-map{
+    padding-bottom: 50%;
+    position: relative;
+}
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
 
 .author-desc > img {
     background: #FFFFFF;
