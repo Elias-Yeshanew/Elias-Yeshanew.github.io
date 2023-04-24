@@ -2860,6 +2860,10 @@ body.host_version .first-section .effect-1.slide-btn::after{
     background: url(images/Irack/solution.jpg) no-repeat center;
 }
 
+.our-teams{
+    background: url(images/Irack/Our-Teams.jpg) no-repeat center;
+}
+
 .all-title-box{
 
     -webkit-background-size: cover;
