@@ -2131,6 +2131,10 @@ select.mobile-device {
     display: block;
     margin-bottom: 30px;
 }
+.footer .widget-title img{
+    width: 200px;
+    height: auto;
+}
 
 .footer .widget-title small {
     color: #999;
