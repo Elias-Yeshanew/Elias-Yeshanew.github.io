@@ -2102,6 +2102,9 @@ select.mobile-device {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+.cac:hover {
+    background-color: rgba(48, 44, 32, 0.849) !important;
+}
 
 .cac:hover a h3 {
     color: #fff !important;
@@ -2123,7 +2126,7 @@ select.mobile-device {
 .footer {
     padding: 0px;
     color: #999;
-    background-color: #ffffff;
+    background-color: #000;
 }
 
 .footer .widget-title {
@@ -2148,7 +2151,7 @@ select.mobile-device {
 }
 
 .footer .widget-title h3 {
-    color: #bac63e;
+    color: gold;
     font-weight: 500;
     font-size: 21px;
     padding: 0;
@@ -2290,11 +2293,11 @@ body.seo_version .footer-links a:hover{
 
 
 .footer-distributed .footer-company-name a{
-	color: #111111;
+	color: white;
 }
 
 .footer-distributed .footer-company-name a:hover{
-	color: #bac63e;
+	color: gold;
 }
 
 

@@ -408,8 +408,8 @@ body.seo_version .affix {
 }
 
 body.seo_version .copyrights {
-    background-color: #ffffff;
-    padding: 60px 0px;
+    background-color: #000;
+    padding: 0px 0px;
 }
 
 body.seo_version .footer-distributed form input {
